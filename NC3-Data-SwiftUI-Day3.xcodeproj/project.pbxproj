@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179853012B59ED35007A5FF9 /* MarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179852FF2B59ED35007A5FF9 /* MarsData.swift */; };
+		179853022B59ED35007A5FF9 /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179853002B59ED35007A5FF9 /* MarsView.swift */; };
 		8478F5A42B5775C600F102B3 /* NC3_Data_SwiftUI_Day3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F5A32B5775C600F102B3 /* NC3_Data_SwiftUI_Day3App.swift */; };
 		8478F5A62B5775C600F102B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F5A52B5775C600F102B3 /* ContentView.swift */; };
 		8478F5A82B5775C700F102B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8478F5A72B5775C700F102B3 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179852FF2B59ED35007A5FF9 /* MarsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsData.swift; sourceTree = "<group>"; };
+		179853002B59ED35007A5FF9 /* MarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		179853032B59ED73007A5FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8478F5A02B5775C600F102B3 /* NC3-Data-SwiftUI-Day3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3-Data-SwiftUI-Day3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8478F5A32B5775C600F102B3 /* NC3_Data_SwiftUI_Day3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Data_SwiftUI_Day3App.swift; sourceTree = "<group>"; };
 		8478F5A52B5775C600F102B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179852FE2B59ED19007A5FF9 /* Mars */ = {
+			isa = PBXGroup;
+			children = (
+				179852FF2B59ED35007A5FF9 /* MarsData.swift */,
+				179853002B59ED35007A5FF9 /* MarsView.swift */,
+			);
+			path = Mars;
+			sourceTree = "<group>";
+		};
 		8478F5972B5775C600F102B3 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +71,10 @@
 		8478F5A22B5775C600F102B3 /* NC3-Data-SwiftUI-Day3 */ = {
 			isa = PBXGroup;
 			children = (
+				179853032B59ED73007A5FF9 /* Info.plist */,
 				8478F5A32B5775C600F102B3 /* NC3_Data_SwiftUI_Day3App.swift */,
 				8478F5A52B5775C600F102B3 /* ContentView.swift */,
+				179852FE2B59ED19007A5FF9 /* Mars */,
 				8478F5B12B5775DA00F102B3 /* MadLibs */,
 				8478F5B42B57793900F102B3 /* Talking Pirate */,
 				8478F5B72B57797600F102B3 /* Stocks */,
@@ -173,7 +189,9 @@
 				8478F5B92B57799F00F102B3 /* StockView.swift in Sources */,
 				8478F5B62B57795000F102B3 /* talkingPirateView.swift in Sources */,
 				8478F5B32B5775FA00F102B3 /* MadLibsView.swift in Sources */,
+				179853022B59ED35007A5FF9 /* MarsView.swift in Sources */,
 				8478F5A62B5775C600F102B3 /* ContentView.swift in Sources */,
+				179853012B59ED35007A5FF9 /* MarsData.swift in Sources */,
 				8478F5A42B5775C600F102B3 /* NC3_Data_SwiftUI_Day3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NC3-Data-SwiftUI-Day3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3-Data-SwiftUI-Day3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,6 +357,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NC3-Data-SwiftUI-Day3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3-Data-SwiftUI-Day3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
