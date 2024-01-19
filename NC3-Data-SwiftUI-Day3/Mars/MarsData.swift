@@ -17,8 +17,11 @@ struct MarsResult:Codable{
     var photos: [Photo]
 }
 
+
 func getPhoto(sol:Int)async throws ->MarsResult?{
-    let urlString = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=\(sol)&api_key=ghs0Gc6miUwxsSo3PZ1196esCjMjWCfmJlP7oep4"
+    let key = "PUT_YOUR_OWN_KEY_HERE" //https://api.nasa.gov/
+    
+    let urlString = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=\(sol)&api_key=\(key)"
     
     guard let url = URL(string: urlString) else {
         print("We have an error getting the URL")
