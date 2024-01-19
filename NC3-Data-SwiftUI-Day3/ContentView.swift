@@ -32,6 +32,13 @@ struct ContentView: View {
                         Text("Stocks")
                     }
                 }
+            MarsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "paperplane.circle.fill")
+                        Text("Mars")
+                    }
+                }
         }
     }
 }
